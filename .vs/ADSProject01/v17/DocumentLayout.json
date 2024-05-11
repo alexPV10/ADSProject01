@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\",
+  "WorkspaceRootPath": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|c:\\users\\alex\\desktop\\pruebas\\adsproject01\\adsproject01\\migrations\\20240511022808_carreras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|solutionrelative:adsproject01\\migrations\\20240511022808_carreras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|c:\\users\\alex\\desktop\\analisis de sistemas\\adsproject01\\adsproject01\\migrations\\20240511031158_materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|solutionrelative:adsproject01\\migrations\\20240511031158_materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|c:\\users\\alex\\desktop\\pruebas\\adsproject01\\adsproject01\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|solutionrelative:adsproject01\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|c:\\users\\alex\\desktop\\analisis de sistemas\\adsproject01\\adsproject01\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|solutionrelative:adsproject01\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|c:\\users\\alex\\desktop\\pruebas\\adsproject01\\adsproject01\\models\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|solutionrelative:adsproject01\\models\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|c:\\users\\alex\\desktop\\analisis de sistemas\\adsproject01\\adsproject01\\repositories\\materiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|solutionrelative:adsproject01\\repositories\\materiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|c:\\users\\alex\\desktop\\analisis de sistemas\\adsproject01\\adsproject01\\interfaces\\imateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|solutionrelative:adsproject01\\interfaces\\imateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|c:\\users\\alex\\desktop\\analisis de sistemas\\adsproject01\\adsproject01\\migrations\\20240511031108_grupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5890AF8B-8666-48E5-8231-6A7ABB006EEB}|ADSProject01\\ADSProject01.csproj|solutionrelative:adsproject01\\migrations\\20240511031108_grupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240511022808_Carreras.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\Migrations\\20240511022808_Carreras.cs",
-              "RelativeDocumentMoniker": "ADSProject01\\Migrations\\20240511022808_Carreras.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\Migrations\\20240511022808_Carreras.cs",
-              "RelativeToolTip": "ADSProject01\\Migrations\\20240511022808_Carreras.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAUAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "MateriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Repositories\\MateriaRepository.cs",
+              "RelativeDocumentMoniker": "ADSProject01\\Repositories\\MateriaRepository.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Repositories\\MateriaRepository.cs",
+              "RelativeToolTip": "ADSProject01\\Repositories\\MateriaRepository.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T02:28:08.864Z",
+              "WhenOpened": "2024-05-11T03:17:57.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Carrera.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\Models\\Carrera.cs",
-              "RelativeDocumentMoniker": "ADSProject01\\Models\\Carrera.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\Models\\Carrera.cs",
-              "RelativeToolTip": "ADSProject01\\Models\\Carrera.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "DocumentIndex": 3,
+              "Title": "IMateria.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Interfaces\\IMateria.cs",
+              "RelativeDocumentMoniker": "ADSProject01\\Interfaces\\IMateria.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Interfaces\\IMateria.cs",
+              "RelativeToolTip": "ADSProject01\\Interfaces\\IMateria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T02:25:57.705Z",
+              "WhenOpened": "2024-05-11T03:17:48.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240511031108_Grupos.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Migrations\\20240511031108_Grupos.cs",
+              "RelativeDocumentMoniker": "ADSProject01\\Migrations\\20240511031108_Grupos.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Migrations\\20240511031108_Grupos.cs",
+              "RelativeToolTip": "ADSProject01\\Migrations\\20240511031108_Grupos.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T03:17:36.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240511031158_Materias.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Migrations\\20240511031158_Materias.cs",
+              "RelativeDocumentMoniker": "ADSProject01\\Migrations\\20240511031158_Materias.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Migrations\\20240511031158_Materias.cs",
+              "RelativeToolTip": "ADSProject01\\Migrations\\20240511031158_Materias.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T03:17:30.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\DB\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ADSProject01\\DB\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\DB\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ADSProject01\\DB\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAqwA4AAAAAAAAA",
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Models\\Materia.cs",
+              "RelativeDocumentMoniker": "ADSProject01\\Models\\Materia.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\Models\\Materia.cs",
+              "RelativeToolTip": "ADSProject01\\Models\\Materia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T02:25:08.995Z",
+              "WhenOpened": "2024-05-11T03:17:27.788Z",
               "EditorCaption": ""
             }
           ]

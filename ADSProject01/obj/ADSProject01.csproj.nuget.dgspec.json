@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj": {}
+    "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj": {
+    "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj",
         "projectName": "ADSProject01",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",

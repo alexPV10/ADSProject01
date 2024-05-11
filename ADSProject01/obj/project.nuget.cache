@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FJ4cvB2wfsnY3wnXUADjO1C8UaaOlVAqTWAby4PIDkuAOj7W19vX4GzJvbgfGstvegi6TIrXBVgzh8lyHq0FUQ==",
+  "dgSpecHash": "09dlX7++ATzGBCnIvtrI0FQXe4/N3TqxJ+p8zB7mWNdRGHSf6dbioTrxjXyR/MKgi62VjLwLAicQnUISwxyEEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\PRUEBAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\ANALISIS DE SISTEMAS\\ADSProject01\\ADSProject01\\ADSProject01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
