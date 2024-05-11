@@ -1,0 +1,6 @@
+@ADSProject01_HostAddress = http://localhost:5001
+
+GET {{ADSProject01_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
