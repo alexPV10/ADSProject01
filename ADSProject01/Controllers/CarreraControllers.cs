@@ -121,7 +121,7 @@ namespace ADSProject.Controllers
             }
         }
 
-        [HttpGet("obtenerCarreraPorID/{idEstudiante}")]
+        [HttpGet("obtenerCarreraPorID/{idCarrera}")]
         public ActionResult<Carrera> ObtenerCarreraPorID(int idCarrera)
         {
             try

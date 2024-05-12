@@ -1,21 +1,31 @@
-﻿using ADSProject.Interfaces;
+﻿using ADSProject.DB;
+using ADSProject.Interfaces;
 using ADSProject.Models;
 
 namespace ADSProject.Repositories
 {
     public class MateriaRepository : IMateria
     {
+        /*
         private List<Materia> listitaMaterias = new List<Materia>
         {
-            new Materia{IdMateria = 1, NombreMateria = "MATEMATICA"}
+            new Materia{IdMateria = 1, NombreMateria = "Ptogramacion III"}
         };
+        */
+
+        private readonly ApplicationDbContext applicationDbContext;
+
+        public MateriaRepository(ApplicationDbContext applicationDbContext)
+        {
+            this.applicationDbContext = applicationDbContext;
+        }
 
         public int ActualizarMateria(int idMateria, Materia materia)
         {
             try
             {
+                /*
                 int bandera = 0;
-
                 int index = listitaMaterias.FindIndex(tmp => tmp.IdMateria == idMateria);
                 
                 if(index >= 0)
@@ -26,8 +36,12 @@ namespace ADSProject.Repositories
                 {
                     bandera = -1;
                 }
+                */
 
-                return bandera;
+                var item = applicationDbContext.Materias.SingleOrDefault(x => x.IdMateria == idMateria);
+                applicationDbContext.Entry(item).CurrentValues.SetValues(materia);
+                applicationDbContext.SaveChanges();
+                return idMateria;
             }
             catch (Exception)
             {
@@ -40,12 +54,16 @@ namespace ADSProject.Repositories
         {
             try
             {
+                /*
                 if(listitaMaterias.Count > 0)
                 {
                     materia.IdMateria = listitaMaterias.Last().IdMateria + 1;
                 }
                 listitaMaterias.Add(materia);
+                */
 
+                applicationDbContext.Materias.Add(materia);
+                applicationDbContext.SaveChanges ();
                 return materia.IdMateria;
             }
             catch (Exception)
@@ -59,6 +77,7 @@ namespace ADSProject.Repositories
         {
             try
             {
+                /*
                 bool bandera = false;
                 int index = listitaMaterias.FindIndex(aux => aux.IdMateria == idMateria);
 
@@ -67,8 +86,12 @@ namespace ADSProject.Repositories
                     listitaMaterias.RemoveAt(index);
                     bandera = true;
                 }
+                */
 
-                return bandera;
+                var item = applicationDbContext.Materias.SingleOrDefault(x => x.IdMateria == idMateria);
+                applicationDbContext.Materias.Remove(item);
+                applicationDbContext.SaveChanges();
+                return true;
             }
             catch (Exception)
             {
@@ -81,7 +104,8 @@ namespace ADSProject.Repositories
         {
             try
             {
-                var materia = listitaMaterias.FirstOrDefault(tmp => tmp.IdMateria == idMateria);
+                //var materia = listitaMaterias.FirstOrDefault(tmp => tmp.IdMateria == idMateria);
+                var materia = applicationDbContext.Materias.SingleOrDefault(x => x.IdMateria == idMateria);
 
                 return materia;
 
@@ -97,7 +121,8 @@ namespace ADSProject.Repositories
         {
             try
             {
-                return listitaMaterias;
+                //return listitaMaterias;
+                return applicationDbContext.Materias.ToList();
             }
             catch (Exception)
             {
