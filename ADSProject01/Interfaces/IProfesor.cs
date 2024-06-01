@@ -12,6 +12,6 @@ namespace ADSProject.Interfaces
 
         public List<Profesor> ObtenerTodosLosProfesores();
 
-        public Carrera ObtenerProfesorPorId(int idProfesor);
+        public Profesor ObtenerProfesorPorId(int idProfesor);
     }
 }

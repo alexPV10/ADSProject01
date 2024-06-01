@@ -97,7 +97,7 @@ namespace ADSProject.Repositories
             }
         }
 
-        public List<Profesor> ObtenerTodasLosProfesores()
+        public List<Profesor> ObtenerTodosLosProfesores()
         {
             try
             {
@@ -110,6 +110,7 @@ namespace ADSProject.Repositories
             }
         }
 
+        /*
         public List<Profesor> ObtenerTodosLosProfesores()
         {
             throw new NotImplementedException();
@@ -119,5 +120,6 @@ namespace ADSProject.Repositories
         {
             throw new NotImplementedException();
         }
+        */
     }
 }

@@ -57,7 +57,7 @@ namespace ADSProject01.Controllers
             }
         }
 
-        [HttpPost("actualizarProfesor/{idProfesor}")]
+        [HttpPut("actualizarProfesor/{idProfesor}")]
 
         public ActionResult<string> ActualizarProfesor(int idProfesor, [FromBody] Profesor profesor)
         {
@@ -123,11 +123,11 @@ namespace ADSProject01.Controllers
 
         [HttpGet("obtenerProfesorPorID/{idProfesor}")]
 
-        public ActionResult<Profesor> ObtenerProfesorPorID(int idProfesor)
+        public ActionResult<Profesor> ObtenerProfesorPorId(int idProfesor)
         {
             try
             {
-                Carrera carrera = this.profesor.ObtenerProfesorPorId(idProfesor);
+                Profesor carrera = this.profesor.ObtenerProfesorPorId(idProfesor);
 
                 if (profesor != null)
                 {

@@ -57,7 +57,7 @@ namespace ADSProject.Controllers
             }
         }
 
-        [HttpPost("actualizarCarrera/{idCarrera}")]
+        [HttpPut("actualizarCarrera/{idCarrera}")]
 
         public ActionResult<string> ActualizarCarrera(int idCarrera, [FromBody] Carrera carrera)
         {
